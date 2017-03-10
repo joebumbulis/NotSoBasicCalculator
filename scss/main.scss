@@ -1,28 +1,58 @@
 body {
-  background: linear-gradient(to right, red, orange);
-  // background-size: cover;
-  // text-align: center;
+  background: linear-gradient(to right, #040395, #007CDB);
 }
 
 form {
+  background: linear-gradient(#02DDB5, #FBCE1B);
   margin: 10% auto;
+  text-align: center;
   width: 55%;
   border: solid .2rem black;
   border-radius: 3rem;
   padding: 5rem 3rem;
+  color: #FBCE1B;
+  font-size: 1rem;
   // border-style: inset;
 }
 
+h1 {
+  text-align: left;
+  font-family: monospace;
+  font-size: 2rem;
+}
+
+section {
+  margin-top: 1rem;
+}
+
+.operators * {
+  border-radius: 1%;
+  padding: .75rem 1.5rem;
+}
+
 output {
-  padding: 1rem 10rem;
-  margin-bottom: 8rem;
+  padding: 1rem 13rem;
+  max-width: 50%;
   border: solid .1rem black;
+  background-color: #000;
+  color: #FBCE1B;
+  margin-bottom: 1rem;
+  font-size: 3rem;
 }
 
 .numbers {
-  margin-top: 3rem;
+  margin: 1rem auto 0 auto;
+  width: 50%;
+
 }
 
 button {
-  margin: 1%;
+  margin: 3%;
+  padding: 1rem;
+  border: .1rem solid #040395;
+  border-radius: 50px;
+  font-size: 2rem;
+  color: #FBCE1B;
+  background: linear-gradient(to right, #02DDB5, #007CDB);
+
 }
