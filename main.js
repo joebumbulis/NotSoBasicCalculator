@@ -202,8 +202,20 @@ nineBtn.addEventListener('click', function(){
 });
 
 plusBtn.addEventListener('click', function(){
-  var firstClick = output.value;
-  console.log(firstClick);
+  var addBy = output.value;
+  console.log(addTo);
+
+minusBtn.addEventListener('click', function(){
+    var subtractBy = output.value;
+    console.log(subtractFrom);
+
+multiplyBtn.addEventListener('click', function(){
+      var multiplyBy = output.value;
+      console.log(multiplyBy);
+
+divideBtn.addEventListener('click', function(){
+        var divideBy = output.value;
+        console.log(divideBy);
 
 });
 
