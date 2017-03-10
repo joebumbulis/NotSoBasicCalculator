@@ -1,0 +1,28 @@
+body {
+  background: linear-gradient(to right, red, orange);
+  // background-size: cover;
+  // text-align: center;
+}
+
+form {
+  margin: 10% auto;
+  width: 55%;
+  border: solid .2rem black;
+  border-radius: 3rem;
+  padding: 5rem 3rem;
+  // border-style: inset;
+}
+
+output {
+  padding: 1rem 10rem;
+  margin-bottom: 8rem;
+  border: solid .1rem black;
+}
+
+.numbers {
+  margin-top: 3rem;
+}
+
+button {
+  margin: 1%;
+}

@@ -57,30 +57,37 @@ twoBtn.addEventListener('click', function(){
 
 threeBtn.addEventListener('click', function(){
   var threeClick = 3;
+  output.value = threeClick;
   console.log(threeClick);
 })
 fourBtn.addEventListener('click', function(){
   var fourClick = 4;
+  output.value = fourClick;
   console.log(fourClick);
 })
 fiveBtn.addEventListener('click', function(){
   var fiveClick = 5;
+  output.value = fiveClick;
   console.log(fiveClick);
 })
 sixBtn.addEventListener('click', function(){
   var sixClick = 6;
+  output.value = sixClick;
   console.log(sixClick);
 })
 sevenBtn.addEventListener('click', function(){
   var sevenClick = 7;
+  output.value = sevenClick;
   console.log(sevenClick);
 })
 eightBtn.addEventListener('click', function(){
   var eightClick = 8;
+  output.value = eightClick;
   console.log(eightClick);
 })
 nineBtn.addEventListener('click', function(){
   var nineClick = 9;
+  output.value = nineClick;
   console.log(nineClick);
 })
 zeroBtn.addEventListener('click', function(){
@@ -89,16 +96,21 @@ zeroBtn.addEventListener('click', function(){
   console.log(zeroClick);
 });
 
+//when numberBtn clicked store in a string then when clicked again store in a string
+//until operator btn is clicked. operator btn click should take the stored string
+//and also store which operator btn was clicked 
+
+
 
 // function operators() {
 //   if ()
 // }
 
 //when operator btn is clicked
-plusBtn.addEventListener('click', function(){
-  var addition
-}
-)
+// plusBtn.addEventListener('click', function(){
+//   var
+// }
+// )
 
 //use the operator button to store the number //
 
