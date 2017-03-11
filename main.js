@@ -1,4 +1,4 @@
-console.log('hi');
+console.log('hello world');
 
 
 // click a calc button to take one number btn click and apply a math operator click to another number btn click )
@@ -54,10 +54,6 @@ zeroBtn.addEventListener('click', function(){
   output.value = 0;
   var firstClick = output.value;
   console.log(firstClick);
-  plusBtn.addEventListener('click', function(){
-    var addBy = output.value;
-    console.log(addBy);
-});
 });
 
 oneBtn.addEventListener('click', function(){
@@ -67,9 +63,17 @@ oneBtn.addEventListener('click', function(){
 });
 
 twoBtn.addEventListener('click', function(){
+  // if (firstClick = addBy) {
+  //
+  // }
   output.value = 2;
   var firstClick = output.value;
   console.log(firstClick);
+  plusBtn.addEventListener('click', function(){
+    var n1 = output.value;
+    output.value = output.value + ' +' ;
+    console.log(n1);
+  });
 });
 
 threeBtn.addEventListener('click', function(){
@@ -113,20 +117,25 @@ nineBtn.addEventListener('click', function(){
 });
 
 
+//Operator Buttons
 
 plusBtn.addEventListener('click', function(){
-  var addBy = output.value;
-  console.log(addBy);
+  var n1 = output.value;
+  output.value = output.value + ' + ';
+  console.log(n1);
 });
 minusBtn.addEventListener('click', function(){
     var subtractBy = output.value;
+    output.value = output.value + ' - ';
     console.log(subtractBy);
 });
 multiplyBtn.addEventListener('click', function(){
       var multiplyBy = output.value;
+      output.value = output.value + ' * ';
       console.log(multiplyBy);
 });
 divideBtn.addEventListener('click', function(){
         var divideBy = output.value;
+        output.value = output.value + ' / ';
         console.log(divideBy);
 });

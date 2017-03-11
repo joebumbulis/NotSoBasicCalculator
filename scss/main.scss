@@ -31,15 +31,18 @@ section {
 
 
 
-output {
-  padding: 1rem 13rem;
-  max-width: 50%;
-  border: solid .1rem black;
+.output {
+  margin: 8px 0px 20px 10px;
+  width: 95%;
+  height: 4rem;
+  border: solid .1rem #FBCE1B;
   background-color: #000;
   color: #FBCE1B;
   margin-bottom: 1rem;
-  font-size: 3rem;
-}
+  font-size: 4rem;
+  overflow: hidden;
+  text-align: right;
+  }
 
 .numbers {
   margin: 1rem auto 0 auto;
