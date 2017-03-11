@@ -44,14 +44,20 @@ var eightClick = 8;
 var nineClick = 9
 
 
-function display(n1) {
-  output.value = n1
+
+
+function display(n1, n2) {
+  output.value = n1 + n2
 };
 
 zeroBtn.addEventListener('click', function(){
-  output.value = zeroClick;
+  output.value = 0;
   var firstClick = output.value;
   console.log(firstClick);
+  plusBtn.addEventListener('click', function(){
+    var addBy = output.value;
+    console.log(addBy);
+});
 });
 
 oneBtn.addEventListener('click', function(){
