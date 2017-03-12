@@ -22,11 +22,16 @@ var eightBtn = document.querySelector('#eight');
 var nineBtn = document.querySelector('#nine');
 var zeroBtn = document.querySelector('#zero');
 
+var numbersBtn = document.querySelectorAll('.number');
+// console.log(numbersBtn[0]);
+
 ///non-number buttons
 var plusBtn = document.querySelector('#plus');
 var minusBtn = document.querySelector('#minus');
 var multiplyBtn = document.querySelector('#multiply');
 var divideBtn = document.querySelector('#divide');
+
+console.dir(plusBtn);
 
 var output = document.querySelector('#output');
 var calcBtn = document.querySelector('#calc');
@@ -43,12 +48,19 @@ var sevenClick = 7;
 var eightClick = 8;
 var nineClick = 9
 
+// for (var = i; i = numbers.length; i++) {
+//   numbersBtn[i].addEventListener('click' function(e)) {
+//
+//   }
+// }
 
 
+// function display(n1, n2) {
+//   output.value = n1 + n2
+// };
+//
+// output.value = display;
 
-function display(n1, n2) {
-  output.value = n1 + n2
-};
 
 zeroBtn.addEventListener('click', function(){
   output.value = 0;
@@ -63,15 +75,20 @@ oneBtn.addEventListener('click', function(){
 });
 
 twoBtn.addEventListener('click', function(){
-  // if (firstClick = addBy) {
-  //
+  // if (output.value <= 9){
+  //   var secondClick = twoClick
+  // }
+  // else {
+  //   ( )
   // }
   output.value = 2;
   var firstClick = output.value;
   console.log(firstClick);
+
   plusBtn.addEventListener('click', function(){
+
+    // output.value = output.value + ' +' ;
     var n1 = output.value;
-    output.value = output.value + ' +' ;
     console.log(n1);
   });
 });
@@ -120,22 +137,41 @@ nineBtn.addEventListener('click', function(){
 //Operator Buttons
 
 plusBtn.addEventListener('click', function(){
-  var n1 = output.value;
-  output.value = output.value + ' + ';
-  console.log(n1);
+  n1 = output.value;
+  operator = '+';
+  output.value = ' ';
+
+  // var n1 = output.value;
+  // output.value = output.value + ' + ';
+  // console.log(n1);
 });
 minusBtn.addEventListener('click', function(){
-    var subtractBy = output.value;
-    output.value = output.value + ' - ';
-    console.log(subtractBy);
+  n1 = output.value;
+  operator = '-';
+  output.value = ' ';
+
+    // var subtractBy = output.value;
+    // output.value = output.value + ' - ';
+    // console.log(subtractBy);
 });
 multiplyBtn.addEventListener('click', function(){
-      var multiplyBy = output.value;
-      output.value = output.value + ' * ';
-      console.log(multiplyBy);
+  n1 = output.value;
+  operator = '*';
+  output.value = ' ';
+      // var multiplyBy = output.value;
+      // output.value = output.value + ' * ';
+      // console.log(multiplyBy);
 });
 divideBtn.addEventListener('click', function(){
-        var divideBy = output.value;
-        output.value = output.value + ' / ';
-        console.log(divideBy);
+  n1 = output.value;
+  operator = '/';
+  output.value = ' ';
+        // var divideBy = output.value;
+        // output.value = output.value + ' / ';
+        // console.log(divideBy);
 });
+
+
+// calcBtn.addEventListener('click' function(){
+//   if ()
+// })
