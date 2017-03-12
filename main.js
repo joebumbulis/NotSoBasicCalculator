@@ -76,10 +76,10 @@ oneBtn.addEventListener('click', function(){
 
 twoBtn.addEventListener('click', function(){
   output.value = 2;
-  // var firstClick = output.value;
-  // var secondClick = 2;
-  // console.log(firstClick);
-  // console.log(secondClick);
+  var firstClick = output.value;
+  var secondClick = 2;
+  console.log(firstClick);
+  console.log(secondClick);
 });
 
 threeBtn.addEventListener('click', function(){
