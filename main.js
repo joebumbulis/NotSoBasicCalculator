@@ -75,27 +75,19 @@ oneBtn.addEventListener('click', function(){
 });
 
 twoBtn.addEventListener('click', function(){
-  // if (output.value <= 9){
-  //   var secondClick = twoClick
-  // }
-  // else {
-  //   ( )
-  // }
   output.value = 2;
-  var firstClick = output.value;
-  console.log(firstClick);
-
-  plusBtn.addEventListener('click', function(){
-
-    // output.value = output.value + ' +' ;
-    var n1 = output.value;
-    console.log(n1);
-  });
+  // var firstClick = output.value;
+  // var secondClick = 2;
+  // console.log(firstClick);
+  // console.log(secondClick);
 });
 
 threeBtn.addEventListener('click', function(){
   output.value = 3;
-  var firstClick = output.value;
+  // var firstClick = output.value;
+  // var secondClick = 3;
+  // console.log(firstClick);
+  // console.log(secondClick);
 });
 
 fourBtn.addEventListener('click', function(){
@@ -134,44 +126,47 @@ nineBtn.addEventListener('click', function(){
 });
 
 
-//Operator Buttons
 
 plusBtn.addEventListener('click', function(){
   n1 = output.value;
   operator = '+';
   output.value = ' ';
-
-  // var n1 = output.value;
-  // output.value = output.value + ' + ';
-  // console.log(n1);
+  console.log (n1, operator);
 });
 minusBtn.addEventListener('click', function(){
   n1 = output.value;
   operator = '-';
   output.value = ' ';
-
-    // var subtractBy = output.value;
-    // output.value = output.value + ' - ';
-    // console.log(subtractBy);
+  console.log (n1, operator);
 });
 multiplyBtn.addEventListener('click', function(){
   n1 = output.value;
   operator = '*';
   output.value = ' ';
-      // var multiplyBy = output.value;
-      // output.value = output.value + ' * ';
-      // console.log(multiplyBy);
+  console.log (n1, operator);
 });
 divideBtn.addEventListener('click', function(){
   n1 = output.value;
   operator = '/';
   output.value = ' ';
-        // var divideBy = output.value;
-        // output.value = output.value + ' / ';
-        // console.log(divideBy);
+  console.log (n1, operator);
 });
 
 
-// calcBtn.addEventListener('click' function(){
-//   if ()
-// })
+calcBtn.addEventListener('click', function(){
+  console.log(n1);
+  console.log(answer);
+  if (operator === '+') {
+    var answer = Number(n1) + Number(output.value);
+  }
+  else if (operator === '-') {
+    var answer = Number(n1) - Number(output.value);
+  }
+  else if (operator === '*') {
+    var answer = Number(n1) * Number(output.value);
+  }
+  else {
+    var answer = Number(n1) / Number(output.value);
+  }
+  output.value = answer;
+});
