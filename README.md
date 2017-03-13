@@ -1,6 +1,20 @@
-### Not So Basic Calculator
+# Not So Basic Calculator
 
-# second Javascript assignment
+### second Javascript assignment
+
+## Reflection
+
+Previous to this assignment, my javascript knowledge and practice was very minimal. While I am understanding the basic logic of javascript, it is still difficult to pull all the pieces together at times. It's easy to get stuck in the "trees for the forest".
+
+The assignment took longer, as I had to start over 3 times before coming to a javascript flow that work. I would like to have had more time to work towards the next levels, Adventure and Epic mode.
+
+While I knew I could iterate over an array of the numbers or even the querySelectorAll for the number buttons and operator buttons, I wanted to stick with the knowledge we were given in class in order to learn in sequence with what the teacher was giving us. Partly, having learned very little, I want to be sure to give up any bad habits or misunderstood notions about javascript I may have by following the teacher's scope and sequence in the assignment.
+
+With this project, I grew in confidence with my ability to problem solve and build towards s solution with the "ingredients" and "actions" needed to produce the intended outcome.
+
+
+
+# Assignment Description
 
 ## Explorer Mode
 
@@ -16,11 +30,7 @@ For explorer mode, you only need to perform math on two single digit integers. Y
 Although you may discover it and it may be tempting, you may not use eval() for this project!
 FUNCTION BEFORE STYLES! A styled but non-functional calculator is not ok! Finish functionality before styling.
 
-## Reflection
 
-Previous to this assignment, my javascript knowledge and practice was very minimal. While I am understanding the basic logic of javascript, it is still difficult to pull all the pieces together at times. It's easy to get stuck in the "trees for the forest". 
-
-The assignment took longer, as I had to start over 3 times before coming to a javascript flow that work. I would like to have had more time to work towards the next levels, Adventure and Epic mode.
 
 ## Adventurer Mode
 
