@@ -1,16 +1,5 @@
 console.log('hello world');
 
-
-// click a calc button to take one number btn click and apply a math operator click to another number btn click )
-// calc btn takes the two number clicks and applies the math click to them
-// the calc button take the two stored clicks and applies the stored operator to them
-
-//step one: click # btn and show value on screen
-//step two: click operator btn and store the value on screen &
-//step two.5 as click of operator stores the correct math operator
-//step three click # btn for second time, show value on screen (and maybe the stored 1st number and oper)
-//step four - click calc btn shows the results of  taking the two stored values and applying the correct stored operator
-
 var oneBtn = document.querySelector('#one');
 var twoBtn = document.querySelector('#two');
 var threeBtn = document.querySelector('#three');
@@ -31,36 +20,10 @@ var minusBtn = document.querySelector('#minus');
 var multiplyBtn = document.querySelector('#multiply');
 var divideBtn = document.querySelector('#divide');
 
-console.dir(plusBtn);
-
 var output = document.querySelector('#output');
 var calcBtn = document.querySelector('#calc');
 var clearBtn =document.querySelector('#clear');
 
-// var numbers =[0, 1, 2, 3, 4, 5, 6, 7, 8, 9,]
-var zeroClick = 0;
-var oneClick = 1;
-var twoClick = 2;
-var threeClick = 3;
-var fourClick = 4;
-var fiveClick = 5;
-var sixClick = 6;
-var sevenClick = 7;
-var eightClick = 8;
-var nineClick = 9
-
-// for (var = i; i = numbers.length; i++) {
-//   numbersBtn[i].addEventListener('click' function(e)) {
-//
-//   }
-// }
-
-
-// function display(n1, n2) {
-//   output.value = n1 + n2
-// };
-//
-// output.value = display;
 
 
 zeroBtn.addEventListener('click', function(){
